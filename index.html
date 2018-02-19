@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pitagoras</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="img/003.jpg" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <a href="#home">
+        <li>Home</li>
+      </a>
+      <a href="#calc">
+        <li>Calcular</li>
+      </a>
+      <a href="#acerca">
+        <li>Acerca</li>
+      </a>
+    </ul>
+  </nav>
+  <main>
+    <section id="home">
+      <div class="fog">
+         <h2 class="title">Teorema de Pitagoras</h2>
+      </div>
+    </section>
+    <section id="calc">
+      <div class="fog-darker">
+        <div class="app">
+            <div id="triangleRectangle"></div>
+            <br />
+            <form name="pitagoras">
+              <input name="catetoOpuesto" type="number" placeholder="Cateto Adjacente" />
+              <input name="catetoAdjacente" type="number" placeholder="Cateto Opuesto" />
+              <input name="hipotenusa" type="number" placeholder="Hipotenusa" />
+              <button id="submitPitagoras">Submit</button>
+            </form>
+            <ul>
+              <li>Cateto Adjacente: <span id="catAdj"></span></li>
+              <li>Cateto Opuesto: <span id="catOpt"></span></li>
+              <li>Hipotenusa: <span id="hipt"></span></li>
+            </ul>
+        </div>
+      </div>
+    </section>
+    <section id="acerca">
+      <h2>Acerca del Teorema de Pitágoras</h2>
+        <p> 
+          <h3>Historia del Teorema de Pitágoras</h3>
+          Tiene este nombre porque su demostración,sobre todo,
+          es esfuerzo de la escuela pitagórica. Anteriormente, en mesopotamia 
+          y el Antiguo Egipto se conocían temas
+          de valores que se correspondían 
+          <br /> 
+          con los lados de un triángulo rectángulo, 
+          y se utilizaban para resolver problemas referentes a los citados triángulos, 
+          tal como se indica en unas tabillas y papiros. Sin embargo no ha durado ningún
+          <br /> 
+          documento que exponga teóricamente su relación.
+          <br />
+          El <strong>Teorema de Pitágoras</strong> fue comprobado en el siglo VI a.C por 
+          el filósofo y matemático griego Pitágoras,pero se estima que pudo haber sido previo
+          su existencia, o demostrado con otro nombre.
+        </p>
+        <p>
+            Un triángulo rectángulo es un triángulo que tiene un ángulo recto, es decir de 
+            90º.En un triángulo rectángulo, el lado más grande recibe el nombre de hipotenusa y
+            los otros dos lados se llaman catetos.
+        </p>
+        <ul class="lista-de-imagenes">
+          <li><img src="img/006.jpg" class="listed-image-1" /></li>
+          <li><img src="img/004.jpg" class="listed-image-2" /></li>
+        </ul>
+        <br>
+    </section>
+  </main>
+  <footer>
+    <span id="copyright"></span>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
